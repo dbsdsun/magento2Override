@@ -8,4 +8,5 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
     <preference for="Magento\Theme\Block\Html\Title" type="Sample\HelloWorld\Block\HelloTitle" />
     <preference for="Magento\Cms\Controller\Index\Index" type="Sample\HelloWorld\Controller\Index\ExtendIndex" />
+    <preference for="Magento\Catalog\Controller\Adminhtml\Product\Edit" type="Sample\HelloWorld\Controller\Catalog\Adminhtml\Product\Edit" />
 </config>
